@@ -50,8 +50,7 @@ def save_image(latitude, longitude, zoom=19, size="640x640", scale=2, key=API_KE
     else:
         print(f"Failed to fetch satellite tile. Status code: {response.status_code}")
 
-if __name__ == "__main()__":
-    
+def main():
     image_coordinates = [
         (32.8353107,-117.1939721), 
         (32.8353005,-117.1921541),
@@ -82,4 +81,8 @@ if __name__ == "__main()__":
     ]
 
     for coord in image_coordinates:
-        save_image(coord[0], coord[1])
+        save_image(*coord)
+
+if __name__ == "__main__":
+    main()
+    

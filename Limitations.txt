@@ -1,0 +1,3 @@
+Potential limitations:
+    - Utility pole shadows are easier to identify when cast on the street vice other structures like house or lawns
+    - It appears that it is easier to identify utility pole shadows on streets that run east and west. This is probably due to the time of day the images were taken all being similar in time.
